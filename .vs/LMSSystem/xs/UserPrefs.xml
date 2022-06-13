@@ -1,0 +1,42 @@
+﻿<Properties StartupConfiguration="{0F5F6954-F309-40FD-9543-B453EE81969D}|Default">
+  <MonoDevelop.Ide.ItemProperties.LMSSystem PreferredExecutionTarget="/Applications/Safari.app" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="LMSSystem/Controllers/AuthController.cs">
+    <Files>
+      <File FileName="LMSSystem/Views/Auth/Signup.cshtml" Line="15" Column="28" />
+      <File FileName="LMSSystem/Views/Auth/Login.cshtml" />
+      <File FileName="LMSSystem/Views/Shared/_Layout.cshtml" />
+      <File FileName="LMSSystem/wwwroot/css/style.css" />
+      <File FileName="LMSSystem/Controllers/AuthController.cs" Line="13" Column="31" />
+      <File FileName="LMSSystem/Views/Dashboard/Dash.cshtml" />
+      <File FileName="LMSSystem/Controllers/DashBoardController.cs" />
+      <File FileName="LMSSystem/Views/Dashboard/add.cshtml" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="LMSSystem" expanded="True" selected="True">
+            <Node name="LMSSystem" expanded="True">
+              <Node name="Controllers" expanded="True" />
+              <Node name="Views" expanded="True">
+                <Node name="Auth" expanded="True" />
+                <Node name="Dashboard" expanded="True" />
+                <Node name="Home" expanded="True" />
+                <Node name="Shared" expanded="True" />
+              </Node>
+              <Node name="wwwroot" expanded="True">
+                <Node name="css" expanded="True" />
+                <Node name="img" expanded="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

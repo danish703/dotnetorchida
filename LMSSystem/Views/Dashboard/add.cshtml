@@ -1,0 +1,37 @@
+﻿@{
+    ViewData["Title"] = "Dashboard";
+}
+
+<div class="row">
+    <div class="col-4">
+        <ul class="list-group">
+            <li class="list-group-item"><a asp-controller="Dashboard" asp-action="Add">Add Book</a></li>
+            <li class="list-group-item">A second item</li>
+            <li class="list-group-item">A third item</li>
+            <li class="list-group-item">A fourth item</li>
+            <li class="list-group-item">And a fifth one</li>
+        </ul>
+    </div>
+
+    <div class="col-8">
+        <h3>Add New Book</h3>
+        <hr />
+        <form method="post">
+            <div class="mb-3">
+                <label for="name" class="form-label">Book Name</label>
+                <input type="text" class="form-control" id="studentId" placeholder="studentId">
+            </div>
+            <div class="mb-3">
+                <label for="author" class="form-label">Author Name</label>
+                <input type="text" class="form-control" id="author" placeholder="author">
+            </div>
+            <div class="mb-3">
+                <label for="bookno" class="form-label">Number of Book</label>
+                <input type="number" class="form-control" id="bookno" placeholder="Number of Book">
+            </div>
+            <hr />
+            <button type="submit" class="btn btn-success">Save</button>
+        </form>
+
+    </div>
+</div>
